@@ -44,33 +44,31 @@ export default function Registration() {
             type="text"
              name="name" 
              placeholder="Name" 
-             onChange={(e)=>setNameReg(e.target.value)}>
-
-             </input>
+             onChange={(e)=>setNameReg(e.target.value)}
+             autoComplete="off"
+             />
           
           <input 
             type="number" 
             name="name" 
             placeholder="Mobile Number" 
-            onChange={(e)=>setMobileReg(e.target.value)}>
-
-            </input>
-          
+            onChange={(e)=>setMobileReg(e.target.value)}
+            autoComplete="off"
+            />          
           <input 
             type="email" 
             name="name" 
             placeholder="Email" 
-            onChange={(e)=>setEmailReg(e.target.value)}>
-
-            </input>
-          
+            onChange={(e)=>setEmailReg(e.target.value)}
+            autoComplete="off"
+            />          
           <input 
             type="password" 
             name="name" 
             placeholder="Password" 
-            onChange={(e)=>setPasswordReg(e.target.value)}>
-
-            </input>
+            onChange={(e)=>setPasswordReg(e.target.value)}
+            autoComplete="off"
+            />
 
           <button onClick={register}>Register</button>
 

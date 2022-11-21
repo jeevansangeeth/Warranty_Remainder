@@ -53,14 +53,18 @@ export default function login() {
             type="email" 
             placeholder="Email" 
             name="name" 
-            onChange={(e)=>setEmailLog(e.target.value)} >
-            </input>
+            onChange={(e)=>setEmailLog(e.target.value)}
+            autoComplete="off"
+             />
+           
           <input 
             type="password" 
             placeholder="Password" 
             name="name"
-            onChange={(e)=> setPasswordLog(e.target.value)} >
-            </input>
+            onChange={(e)=> setPasswordLog(e.target.value)} 
+            autoComplete="new-password"
+            />
+            
 
           <button onClick={login}> LOG IN</button>
           <p className="reg-link">New for this app  <a href="/registration">Register Now</a></p>
