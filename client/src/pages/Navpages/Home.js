@@ -15,7 +15,7 @@ export default function home(){
          <div className="logo">
             {/* <img src={Image} alt="Logo"/> */}
             <div className="All">
-
+                <h3>All</h3>
             </div>
          </div>
         </div>
