@@ -1,0 +1,18 @@
+
+.homePageBox{
+    display: flex;
+}
+.sideNavBar{
+    background-color: blue;
+    width: 35%;
+    height: 100vh;
+}
+.sideBarPage{
+    background-color: blueviolet;
+    width: 60%;
+    height: 100vh;
+}
+.logo img{
+    margin-top: 10px;
+    margin-left: 35%;
+}

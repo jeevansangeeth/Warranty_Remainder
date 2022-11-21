@@ -1,0 +1,52 @@
+.navigation {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0.5rem 0rem;
+    background-color: #fff;
+    color: black;
+    box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+  }
+  .brand-name {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    margin-left: 1rem;
+  }
+  .navigation-menu {
+    margin-left: auto;
+    margin-left: 30%;
+  }
+  .navigation-menu ul {
+    display: flex;
+    padding: 0;
+  }
+  .navigation-menu li {
+  
+    list-style-type: none;
+    margin: 0 2rem;
+    /* background-color: aqua; */
+    font-size: 20px;
+    font-weight:bolder;
+    color: rgb(214, 182, 182);
+  }
+  .navigation-menu li a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: rgb(75, 75, 75);
+  }
+  img{
+    height:50px;
+    width: 80px;
+    margin-left: 20px;
+  }
+  .navigation button{
+    margin-left: 120px;
+    cursor: pointer;
+    border-radius: 10px;
+    padding-right: 10px;
+    width: 200px;
+  }
